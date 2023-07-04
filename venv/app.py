@@ -7,7 +7,7 @@ from langchain.prompts import PromptTemplate
 from langchain.tools import DuckDuckGoSearchRun
 
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "sk-..."
 
 llm = OpenAI(
     openai_api_key=OPENAI_API_KEY,
@@ -53,7 +53,7 @@ class WA:
 
 
 
-WA_API_KEY = "X7W4KU-XAYWT6T54R" # You can get it here: https://products.wolframalpha.com/api/
+WA_API_KEY = "..." # You can get it here: https://products.wolframalpha.com/api/
 
 wa = WA(app_id=WA_API_KEY)
 
